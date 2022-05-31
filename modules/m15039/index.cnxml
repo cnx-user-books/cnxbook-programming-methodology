@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>computer architecture</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>415b5357-4951-4e54-b52f-9021cb4eac59</md:uuid>
+</metadata>
+  <content>
+    <section id="id-716884448281">
+      <title>Computer Hardware</title>
+      <para id="id6719383">A computer may be divided into six logical units.</para>
+      <para id="id6719392">Input Unit</para>
+      <list list-type="bulleted" id="id6719396">
+        <item>Obtain information from input devices: keyboards and mouse devices.</item>
+        <item>Place the information at the disposal of the other units to be processed. </item>
+      </list>
+      <para id="id6719413">Output Unit</para>
+      <list list-type="bulleted" id="id6719418">
+        <item>Take information that has been processed.</item>
+        <item>Place it on output devices: displayed on screens, printed on paper.</item>
+      </list>
+      <para id="id6719433">Memory Unit</para>
+      <list list-type="bulleted" id="id6719438">
+        <item>RAM (random access memory) is volatile, stores program and data.</item>
+        <item>ROM (read only memory) is non-volatile, contains fundamental instructions.</item>
+      </list>
+      <para id="id6719465">Arithmetic and Logic Unit (ALU)</para>
+      <list list-type="bulleted" id="id6719469">
+        <item>Perform all the arithmetic and logic operations: addition, subtraction, comparison, etc..</item>
+      </list>
+      <para id="id6719480">CPU</para>
+      <list list-type="bulleted" id="id6719484">
+        <item>Tell the input unit when information should be read into the memory unit.</item>
+        <item>Tell the ALU when information from the memory should be used in calculations.</item>
+        <item>Tell the output unit when to send information from the memory unit to certain output devices.</item>
+      </list>
+      <para id="id6719509">Secondary Storage.</para>
+      <list list-type="bulleted" id="id6719513">
+        <item>Permanent storage areas for programs and data: magnetic tapes, magnetic hard disks, floppy disk, CD ROM</item>
+      </list>
+    </section>
+    <section id="id-620848448841">
+      <title>Computer Software</title>
+      <list list-type="bulleted" id="id6719532">
+        <item>A computer program: set of instructions used to operate a computer to produce a specific result.</item>
+        <item>Computer programming: writing computer programs.</item>
+        <item>Programming languages: languages used to create computer programs.</item>
+      </list>
+      <para id="id6719576">Machine Languages</para>
+      <para id="id6719581">Example: 0101010 000000000001 000000000010</para>
+      <list list-type="bulleted" id="id6719591">
+        <item>The lowest level of computer languages.</item>
+        <item>Programs consist of entirely of 1s and 0s.</item>
+        <item>Programs can control directly to the computer’s hardware.</item>
+        <item>Machine language instructions consist of two parts:<list list-type="bulleted" id="id6719619"><item>Instruction part (opcode) is the leftmost group of bits and tells the computer the operation to be performed.</item><item>Address part specifies the memory address of the data to be used in the instruction.</item></list></item>
+      </list>
+      <para id="id6719644">Assembly Languages</para>
+      <para id="id6719649">Example:</para>
+      <para id="id6719654">LOAD BASEPAY</para>
+      <para id="id6719659">ADD OVERPAY</para>
+      <para id="id6719663">STORE GROSSPAY</para>
+      <list list-type="bulleted" id="id6719668">
+        <item>Perform the same tasks as machine languages, but use symbolic names for opcodes and operands.</item>
+        <item>An assembly language program must be translated into a machine language program.</item>
+      </list>
+      <para id="id8618047">Translation program (assembler)Machine languageprogramAssembly languageprogram</para>
+      <para id="id8618130"/>
+      <list list-type="bulleted" id="id8618170">
+        <item>Machine languages and assembly languages are called low-level languages since they are closest to computer hardware.</item>
+      </list>
+      <para id="id8618191">High-level Programming Languages</para>
+      <list list-type="bulleted" id="id8618195">
+        <item>Create computer programs using instructions that much easier to understand: English-like included with mathematical notations.</item>
+        <item>Programs written in high-level languages must be translated into a low level language using a program called a compiler.</item>
+        <item>Each line in a high-level language program is called a statement.</item>
+      </list>
+      <para id="id8618236">Ex: Result = (First + Second)*Third.</para>
+      <para id="id8618245">Application and System Software</para>
+      <list list-type="bulleted" id="id8618249">
+        <item>Application software: perform particular tasks required by the users.</item>
+        <item>System software: must be available to any computer system to operate. The most important system software is the operating system (MS-DOS, UNIX, MS WINDOWS, MS WINDOWS NT)</item>
+        <item>Multitasking systems: operating systems allow user to run multiple programs. <media id="idp1046544" alt=""><image src="../../media/graphics1.png" mime-type="image/png" height="16" width="16"/></media></item>
+      </list>
+    </section>
+  </content>
+</document>
